@@ -1,0 +1,399 @@
+
+    /* FRONT END */  
+
+html, body {
+text-align: center;
+}
+p 
+{text-align: left;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(sellbuy.jpg) repeat;
+    background-color:#000000;
+    background-position:center top;
+	background-attachment:fixed;
+	text-align: left;
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:35px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 921px;
+}
+
+#top
+{
+display:block;
+width:742px;
+height:35px;
+float:right;
+clear:both;
+}
+
+#top img
+{
+padding-left:15px;
+padding-right:15px;
+float:right;
+}
+
+#header img
+    {
+   
+    width:300px;
+    
+    }
+    
+    
+    #header h1
+    {
+    display:block;
+    float:left;
+    margin-left:17px;
+    color:#f0f359e7; 
+    text-align:left;
+    font-size:60px;
+    font-weight:bold;
+    font-family:SNES, Helvetica, sans-serif;
+    padding-right:20px;
+    padding-top:20px;
+    }
+
+#header h2
+{
+margin-left:20px;
+margin-top:2px;
+padding-right:21px;
+position:relative;
+bottom:15px;
+color:rgb(41, 43, 42);
+text-align:justify;
+font-size:20px;
+font-weight: bold;
+font-family:playfair, Helvetica, sans-serif;
+text-align:justify;
+}
+
+
+#content
+{
+width:742px;
+clear:both;
+margin-top: 20px;
+}
+
+#content .content_top
+{
+background-image:url(front-end-index/content_top.png);
+background-repeat:no-repeat;
+height:82px;
+width:742px;
+
+
+color:rgb(216, 216, 38);
+}
+
+
+#content .content_top h1
+{
+padding-top:23px;
+font-size:50px;
+font-family: Triforce;
+text-align:center;
+
+}
+
+
+#content .content_instance
+{
+width:742px;
+height:300px;
+clear:both;
+background-image:url(front-end-index/content_back.png);
+background-repeat:repeat-x;
+} 
+
+
+#content .extras h2
+{
+font-size:26px;
+color:#000000;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+#content .extras p
+{
+font-size:16px;
+color:#000000;
+padding-left:10px;
+padding-right:10px;
+}
+
+a img
+{
+border:none;
+}
+
+
+#content .extras
+{
+padding-top:10px;
+width:742px;
+height:auto;
+clear:both;
+background-image:url(front-end-index/content_back.png);
+background-repeat:repeat-x;
+} 
+
+#content .content_instance img
+{
+width:300px;
+height:177px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:30px;
+margin-right:15px;
+float:left;
+clear:none;
+}
+
+#content .content_instance .content_right
+{
+margin-top:30px;
+width:385px;
+float:left;
+}
+#content .content_instance .content_right p
+{
+text-align:justify;
+font-size:14px;
+font-weight: bold;
+line-height:18px;
+color:#000000;
+font-family: merri;
+}
+
+ #content .content_instance  h2
+{
+
+
+padding-bottom:7px;
+font-family: Nintender;
+}
+.dotted_line
+{
+background-image:url(front-end-index/dotted_line.png);
+background-repeat:no-repeat;
+clear:both;
+width:916px;
+height:5px;
+} 
+
+#content .content_instance  h1
+{
+
+
+padding-bottom:7px;
+font-family: Nintender;
+}
+#content .content_instance  h3
+{
+
+
+padding-bottom:7px;
+font-family: Nintender;
+} */
+
+.links
+{
+width:722px;
+height:40px;
+font-size:10px;
+font-weight:normal;
+color:#FFFFFF;
+line-height:40px;
+text-align:center;
+padding-right:20px;
+font-family: freaky;
+}
+
+.links a, .links a:visited
+{
+font-size:10px;
+font-weight:bold;
+text-decoration:none;
+color:#E9EEF3;
+background-color:#d41414;
+padding:3px;
+}
+
+.links a:hover
+{
+color:#FFFFFF;
+background-color:#333333;
+}
+
+.market
+{
+width:722px;
+height:40px;
+font-size:10px;
+font-weight:normal;
+color:rgb(216, 216, 38);
+line-height:40px;
+text-align:center;
+padding-right:20px;
+font-family: freaky;
+}
+
+.market a, .links a:visited
+{
+font-size:10px;
+font-weight:bold;
+text-decoration:none;
+color:#E9EEF3;
+background-color:#e73609;
+padding:3px;
+}
+
+.market a:hover
+{
+color:#FFFFFF;
+background-color:#9e15c0;
+}
+
+#footer
+{
+text-align:center;
+width:inherit;
+color:#E6E6E6;
+font-size:11px;
+}
+
+#footer a, #footer a:visited
+{
+color:#FFFFFF;
+}
+ 
+/* Fuentes */
+
+@font-face {
+  font-family: Nintender;
+  src: url(fuentes/Nintender.ttf);
+}
+@font-face {
+  font-family: SNES;
+  src: url(fuentes/SNES.ttf);
+  }
+@font-face {
+  font-family: playfair;
+  src: url(fuentes/playfair.otf);
+  }
+@font-face {
+  font-family: freaky;
+    src: url(fuentes/freaky.ttf);
+    }
+@font-face {
+  font-family: Triforce;
+  src: url(fuentes/Triforce.ttf);
+      }
+ @font-face {
+    font-family: merri;
+    src: url(fuentes/merri.ttf);
+         }
+
+     /* Botones */    
+
+    .bg1b{
+          background-color: rgb(147, 148, 147); 
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 8px; 
+          font-family:freaky;
+          -webkit-transition-duration: 0.4s; 
+          transition-duration: 0.4s;
+          margin-top: 20px;
+        
+        } 
+    .bg1b:hover {
+          background-color: rgb(18, 18, 19); 
+          color: rgb(255, 255, 255);
+        }
+    
+    .bg2b{
+          background-color: rgb(147, 148, 147); 
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 8px; 
+          font-family:freaky;
+          -webkit-transition-duration: 0.4s; 
+           transition-duration: 0.4s;
+        
+        } 
+    .bg2b:hover {
+          background-color: rgb(76, 127, 175); 
+          color: rgb(255, 255, 255);
+        }
+      
+    .bg3b{
+      background-color: rgb(147, 148, 147);  
+     border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 8px; 
+      font-family:freaky;
+      -webkit-transition-duration: 0.4s; 
+       transition-duration: 0.4s;
+    
+    } 
+    .bg3b:hover {
+      background-color: rgb(82, 21, 110); 
+      color: rgb(255, 255, 255);
+    } 
+
+      /* Backgrounds */  
+
+      .bg1 {
+        background-image: url(backgrounds/background.jpg); 
+        }
+        .bg2 {
+            background-image: url(backgrounds/background2.png); 
+        }
+
+            .bg3 {
+                background-image: url(backgrounds/background3.png); 
+                }

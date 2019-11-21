@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<head>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.9.0/jquery.serializejson.js"></script>
+  <script src='jquery-input-file-text.js'></script>
+  <script src='venderscript.js'></script>
+<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="stylevender.css" />
+<title>Pagina de venta</title>
+
+</head>
+
+<body>
+    <div id="page">
+		
+        <div id="header">
+
+          <img align="right"src="cappy.png" alt="logo" />
+          <h1>Venta de consolas y videojuegos</h1>
+        </div> 
+        
+  <div class="dotted_line"></div>
+        <div id="main"> 
+
+            <form id="formulario">
+              
+        	<div class="main_left"> 
+
+           
+            
+            <div class="nes-select is-success">
+                <label for="success_select" style="display:block;text-align:center">Tipo de producto</label>
+            <select required name="tipo" id="success_select">
+            <option value="" disabled selected hidden>Selecciona una opcion</option>
+            <option value="0">Consola</option>
+            <option value="1">Videojuego</option> 
+            </select> 
+          </div>
+          
+
+            <div class="nes-field is-inline" style="margin-top:50px" >
+              <label for="inline_field">Nombre</label>
+              <input type="text" name="nombreproducto" class="nes-input is-success" placeholder="">
+            </div>
+
+            <div class="nes-field is-inline" style="margin-top:50px" >
+                <label for="inline_field" >Precio</label>
+                <input type="number" name="precioproducto" class="nes-input is-success" placeholder="" >
+              </div>
+                  
+              
+               <div class="nes-select is-success" style="margin-top:50px">
+                  <label for="success_select"style="display:block;text-align:center">Condicion de uso</label>
+                  <select required name="condicion"id="success_select">
+                  <option value="" disabled selected hidden>Selecciona una opcion</option>
+                  <option value="0">Nuevo</option>
+                  <option value="1">Seminuevo</option> 
+                  </select> 
+                </div>
+
+                <div class="nes-field is-inline" style="margin-top:50px" >
+                    <label for="inline_field">Vendedor</label>
+                    <input type="text" name="vendedor" class="nes-input is-success" placeholder="">
+                  </div>
+
+                  <div class="nes-field is-inline" style="margin-top:50px" >
+                      <label for="inline_field">Ciudad</label>
+                      <input type="text" name="ciudadv" class="nes-input is-success" placeholder="">
+                    </div>
+
+                  <div class="nes-field is-inline" style="margin-top:50px;margin-bottom:20px;" >
+                      <label for="inline_field">Email</label>
+                      <input type="text" name="emailv" class="nes-input is-success" placeholder="">
+                    </div>
+            
+                  </div>
+        
+            
+            
+           	<div class="main_right">
+                
+              
+                <div class="nes-field is-inline" style="margin-left:80px" >
+                    <label for="inline_field">Subir imagen</label>
+                    <input type="file" name="picture" id="files"  placeholder="" accept="image/x-png">
+                  </div> 
+
+                  <button type="submit" class="nes-btn is-warning" id="submit"style="margin-left:280px;margin-top:20px;" onclick="enviardata()">Vender</button>
+                  
+                  <div class="nes-field is-inline" style="margin-left:80px;margin-top:40px">
+                      <label for="error_field">Modificar por ID</label>
+                      <input type="text" id="error_field" name="idmodify" class="nes-input is-error" placeholder="id" maxlength="2">
+                    </div> 
+
+                    <button type="submit" class="nes-btn is-primary" id="submit"style="margin-left:260px;margin-top:20px;" onclick="modificardata()">Modificar</button>
+
+                    <div class="nes-field is-inline" style="margin-left:85px;margin-top:40px">
+                        <label for="error_field">Eliminar por ID</label>
+                        <input type="text" id="error_field" name="iddelete" class="nes-input is-error" placeholder="id" maxlength="2">
+                      </div>
+                      <button type="submit" class="nes-btn is-primary id="submit" style="margin-left:260px;margin-top:20px;" onclick="borrardata()">Eliminar</button>
+                  
+                  
+                  
+                </div>
+          </form>
+           	<div class="main_bottom">
+               
+
+               
+             </div>
+            
+        
+             <div class="dotted_line"></div>
+        
+        <div id="footer">
+           
+            
+      </div>
+        
+        </div>
+</body>
+</html>
